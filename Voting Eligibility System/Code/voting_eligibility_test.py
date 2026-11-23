@@ -8,7 +8,7 @@ while True:
 
     name = input("\nEnter your name: ")
 
-    # Age validation
+
     while True:
         try:
             age = int(input("Enter your age: "))
@@ -29,7 +29,7 @@ while True:
 
     voters_checked += 1
 
-    # Checking voting eligibility
+    
     if age >= 18 and citizen == "y":
         print(name, "is eligible to vote.")
         eligible_voters += 1
@@ -50,7 +50,7 @@ while True:
     if another != "y":
         break
 
-# Final summary
+
 print("\n===== FINAL SUMMARY =====")
 print("Voters checked:", voters_checked)
 print("Eligible voters:", eligible_voters)
